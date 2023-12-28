@@ -156,6 +156,7 @@ img {
 
    .header {
       border-bottom: 1px solid #e7e9fc;
+      box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
    }
 
 .header-container {
@@ -215,13 +216,16 @@ img {
 
 /* edit hero */
 .hero {
+   max-width: 1440px;
    background-color: #2E2F42;
    padding-top: 188px;
    padding-bottom: 188px;
 
-   background-image: linear-gradient(rgba(46, 47, 66, 0.70),
-         rgba(46, 47, 66, 0.70)), url(../images/hero/people-office.png);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.png);
    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .hero-title {
@@ -519,6 +523,10 @@ img {
       border: 1px solid #8e8f99;
       background-color:  #F4F4FD;
       margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
 }
 
 .description-icon {
@@ -560,12 +568,13 @@ img {
 
 .footer-general {
    display: flex;
+   align-items: baseline;
 }
 
 .footer-social-list {
    display: flex;
    gap: 16px;
-   margin-top: 16px;
+
 
 
 }
@@ -607,7 +616,8 @@ width: 100%;
       font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.02em;
-      color: #F4F4FD;
+      color: #FFFFFF;
+      margin-bottom: 16px;
 }
 
 .payment-icon {
