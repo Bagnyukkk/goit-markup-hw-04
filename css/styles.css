@@ -1,0 +1,479 @@
+/* general */
+
+body {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #FFFFFF;
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1158px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.section {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+/* reset styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+ul,
+ol {
+   margin: 0;
+   padding-left: 0;
+   list-style-type: none;
+}
+
+a {
+   color: currentColor;
+   text-decoration: none;
+}
+
+button {
+   font-family: inherit;
+   color: currentColor;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+/* start header */
+
+/* edit logo */
+.edit-web {
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4D5AE5;
+   margin-right: 76px;
+}
+
+.edit-studio {
+  
+   color: #2E2F42;
+   
+}
+
+/* edit nav */
+.link-nav {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2E2F42;
+}
+
+.link-nav:hover {
+   color: #404BBF;
+}
+
+.link-nav:focus {
+   color: #404BBF;
+}
+
+/* edit address */
+.list-contact {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.list-contact:hover {
+   color: #404BBF;
+}
+
+.list-contact:focus {
+   color: #404BBF;
+}
+
+/* edit flexbox in header */
+
+   .header {
+      border-bottom: 1px solid #e7e9fc;
+   }
+
+.header-container {
+   display: flex;
+   align-items: center;
+   
+
+}
+
+.header-nav {
+   display: flex;
+   margin-right: auto;
+   align-items: center;
+}
+
+.header-list {
+   display: flex;
+   
+}
+
+.header-item {
+   margin-right: 40px;
+}
+
+.header-item:last-child {
+   margin-right: 0;
+}
+
+.header-contacts {
+   display: flex;
+}
+
+.contacts-item {
+   margin-right: 40px;
+}
+
+.contacts-item:last-child {
+   margin-right: 0;
+}
+
+.edit-web,
+.edit-studio {
+   display: inline-flex;
+   align-items: center;
+}
+
+.link-nav {
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+
+
+
+/* start main */
+
+/* edit hero */
+.hero {
+   background-color: #2E2F42;
+   padding-top: 188px;
+   padding-bottom: 188px;
+
+}
+
+.hero-title {
+   font-family: Roboto;
+   font-size: 56px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 60px;
+   letter-spacing: 1.12px;
+   color: #FFFFFF;
+   text-align: center;
+   max-width: 496px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 48px;
+}
+
+.button {
+   background-color: #4D5AE5;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+   padding: 16px 32px;
+   border-radius: 4px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   min-width: 169px;
+   height: 56px;
+   border: none;
+}
+
+.button:hover {
+   background-color: #404BBF;
+}
+
+.button:focus {
+   background-color: #404BBF;
+}
+
+
+
+/* edit description */
+.description-title {
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.025em;
+   color: #2E2F42;
+   margin-bottom: 8px;
+}
+
+.description-paragraph {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+/* edit flexbox in description */
+
+.description-list {
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+}
+
+.description-item {
+   width: calc((100% - 24px * 3)/4);
+}
+
+/* edit our team */
+.our-team {
+   background-color: #F4F4FD;
+}
+
+
+.our-title {
+   font-family: Roboto;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.1;
+   letter-spacing: 0.045em;
+   text-transform: capitalize;
+   color: #2E2F42;
+   text-align: center;
+   margin-bottom: 72px;
+}
+
+
+.team-title {
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.025em;
+   color: #2E2F42;
+   text-align: center;
+}
+
+
+.team-paragraph {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+   text-align: center;
+}
+
+/* edit flexbox in our team */
+
+.our-list {
+   display: flex;
+   gap: 24px;
+}
+
+.people-team {
+   border-radius: 0px 0px 4px 4px;
+   width: calc((100% - 24px * 3)/4);
+   background-color: #FFF;
+   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.name-position {
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+.team-title {
+
+   margin-bottom: 8px;
+   text-align: center;
+}
+
+.team-paragraph {
+
+   text-align: center;
+}
+
+/* edit portfolio */
+.portfolio-title {
+   font-family: Roboto;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.1;
+   text-transform: capitalize;
+   letter-spacing: 0.045em;
+   text-align: center;
+   color: #2E2F42;
+}
+
+.services-title {
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.2;
+   letter-spacing: 0.025em;
+   color: #2E2F42;
+}
+
+.services-paragraph {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+
+/* edit flexbox in portfolio */
+
+.portfolio-title {
+   margin-bottom: 72px;
+}
+
+
+.portfolio-list {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+
+
+}
+
+
+
+.portfolio-services {
+   width: calc((100% - 48px)/3);
+
+}
+
+.name-apps {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+}
+
+.portfolio-services:last-child {
+   margin-right: 0;
+}
+
+
+
+.services-title {
+   margin-bottom: 8px;
+}
+
+.services-paragraph {
+
+}
+
+/* start footer */
+
+.end {
+   background-color: #2E2F42;
+}
+
+
+.edited-studio {
+   color: #F4F4FD;
+}
+
+.edited-web {
+   font-family: Raleway;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4D5AE5;
+}
+
+
+
+.footer-paragraph {
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #F4F4FD;
+}
+
+
+/* edit footer */
+
+.web {
+   display: inline-block;
+   margin-bottom: 16px;
+}
+
+.footer-paragraph {
+
+ 
+   width: 264px;
+}
+
+.end {
+   padding: 100px 0;
+}
